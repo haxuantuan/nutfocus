@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:ital,wght@0,300;0,400;0,700;1,700&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+
+}
+.char{
+    position: relative;
+}
+.user{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 46px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.nav{
+
+}
+
+
+ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    border: 1px solid black;
+    width: 120px;
+    display: none;
+}
+.hide{
+    display: block;
+}
